@@ -119,6 +119,6 @@ def createOpenApiGenerateTask(String fileName) {
                         "interfaceOnly"  : "true"
                 ]
         )
-//        getTemplateDir().set("${dirs.get('contract')}/template")
+        getTemplateDir().set("${dirs.get('contract')}/template")
     }
 }
